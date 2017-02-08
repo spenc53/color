@@ -1,0 +1,13 @@
+* {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.ui-slider {
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+}

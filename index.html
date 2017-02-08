@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css"></link>
+  </head>
+  <body>
+    <h1>Color Selector</h1>
+    <div>
+      <label for="points">Red:</label>
+      <div name="red" id="red"></div><br/>
+
+      <label for="points">Green:</label>
+      <div name="green" id="green"></div><br/>
+
+      <label for="points">Blue:</label>
+      <div name="blue" id="blue"></div><br/>
+    </div>
+    
+    <canvas id="colorPicker" width='300' height='300'>
+
+    </canvas>
+    <svg height="300" width="300">
+        <circle cx="150" cy="150" r="120" stroke="black" stroke-width="3" style="fill:rgb(0,0,255)" id="pCircle"/>
+      </svg>
+    <div>
+      
+    <div id="name">
+    </div><br/>
+
+    </div>
+    <div id="display">
+    </div><br/>
+  </body>
+</html>
